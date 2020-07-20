@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, SafeAreaView, Button, StyleSheet} from 'react-native';
 
-import {RTCPeerConnection, RTCView, mediaDevices} from 'react-native-webrtc';
+import {RTCPeerConnection, RTCView, mediaDevices} from 'WebRtcMobile/libs/rn-webrtc-ciesta';
 
 export default function App() {
   const [localStream, setLocalStream] = React.useState();
